@@ -1,6 +1,6 @@
 # ui-design
 Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, and visual hierarchy.
-## Skills (15)
+## Skills (16)
 - **layout-grid** — Define responsive layout grid systems with columns, gutters, margins, and breakpoints.
 - **color-system** — Build a comprehensive color system with palette generation and accessibility compliance.
 - **typography-scale** — Create a modular typography scale with size, weight, and line-height relationships.
@@ -11,6 +11,7 @@ Craft polished user interfaces with layout grids, color systems, typography scal
 - **dark-mode-design** — Design effective dark mode interfaces with proper color adaptation and contrast.
 - **illustration-style** — Define an illustration style guide with visual language and usage rules.
 - **georgia-okeeffe-style** — Translate Georgia O'Keeffe's visual principles into close-looking, magnified composition, necessary color, and restrained art direction.
+- **mark-rothko-style** — Translate Mark Rothko's visual principles into color relationships, soft boundaries, intimate scale, and contemplative art direction.
 - **data-visualization** — Design clear, accessible data visualizations with appropriate chart selection.
 - **aesthetic-usability** — Apply the Aesthetic-Usability Effect — visually consistent, polished interfaces are perceived as more usable.
 - **von-restorff-effect** — Apply the Von Restorff Effect to make the most important element distinctly different from its surroundings.
