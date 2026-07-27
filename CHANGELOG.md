@@ -4,6 +4,14 @@ All notable changes to this collection are documented here.
 
 ---
 
+## Unreleased
+
+### ui-design — contemporary exhibition editorial
+
+- Added `contemporary-exhibition-editorial`, a reusable visual system for evidence-led AI and technology reporting.
+- Documented 16:9 exhibition-frame composition, paper/black color fields, semantic accent tokens, work-trace diagrams, evidence rails, Feishu output guidance, and responsive quality gates.
+- Added a worked example based on the AI News Digest visual “The next training data is a work trace.”
+
 ## [1.0.0] — 2026-06-11
 
 First stable release. Tagging the current state of main as v1.0.0 to give integrators a stable version to pin to.
