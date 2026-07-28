@@ -18,6 +18,10 @@ All notable changes to this collection are documented here.
 - Added screenshot examples and upstream MIT attribution under `ui-design/examples/minimal-zine-poster/`.
 - Added a root README style gallery showing the reusable visual templates side by side.
 
+### Repository — artist-derived methods gallery
+
+- Added a README section for the Georgia O'Keeffe and Mark Rothko method-based style skills, with distilled principles and recommended use cases.
+
 ### visual-critique — anti-AI-slop quality gate
 
 - Added `anti-ai-slop`, a read-only audit skill adapted from Hallmark's anti-AI-slop practice.

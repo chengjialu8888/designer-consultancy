@@ -87,6 +87,15 @@ These visual templates are reusable art directions, not fixed page templates. Pi
 
 The screenshot examples live beside each template under [`ui-design/examples`](ui-design/examples). The ZINE thumbnails are selected upstream examples and carry their attribution in [`NOTICE.md`](ui-design/examples/minimal-zine-poster/NOTICE.md).
 
+## Artist-Derived Methods
+
+These are principle-based translations of artists' public methods and viewing conditions, not filters, replicas, or instructions to imitate a specific artwork. Use them when the brief needs a stronger point of view about looking, scale, color, or attention.
+
+| Method | Distilled principles | Best for |
+| --- | --- | --- |
+| [Georgia O'Keeffe Style](ui-design/skills/georgia-okeeffe-style/SKILL.md) | Look closely, choose one thing, magnify the meaningful fragment, remove noise, and let necessary color carry the feeling. | Object-led editorial, image prompts, close crops, visual identities, and intimate hero moments |
+| [Mark Rothko Style](ui-design/skills/mark-rothko-style/SKILL.md) | Treat color relationally; set scale and interval first; make the edge active; let the ground and the viewer's duration complete the work. | Color-field compositions, contemplative interfaces, immersive editorial surfaces, and quiet cultural visuals |
+
 ### All commands
 
 | Command | Plugin | Description |
