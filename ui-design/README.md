@@ -1,6 +1,6 @@
 # ui-design
 Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, visual hierarchy, and evidence-led editorial art direction.
-## Skills (17)
+## Skills (18)
 - **layout-grid** — Define responsive layout grid systems with columns, gutters, margins, and breakpoints.
 - **color-system** — Build a comprehensive color system with palette generation and accessibility compliance.
 - **typography-scale** — Create a modular typography scale with size, weight, and line-height relationships.
@@ -14,6 +14,7 @@ Craft polished user interfaces with layout grids, color systems, typography scal
 - **mark-rothko-style** — Translate Mark Rothko's visual principles into color relationships, soft boundaries, intimate scale, and contemplative art direction.
 - **data-visualization** — Design clear, accessible data visualizations with appropriate chart selection.
 - **contemporary-exhibition-editorial** — Build evidence-led AI and technology visuals as exhibition-like 16:9 editorial frames with hard color fields, typographic tension, and traceable data narratives.
+- **minimal-zine-poster** — Create quiet vertical editorial posters with large paper fields, one imageable subject, restrained typography, and a single high-chroma print anchor.
 - **aesthetic-usability** — Apply the Aesthetic-Usability Effect — visually consistent, polished interfaces are perceived as more usable.
 - **von-restorff-effect** — Apply the Von Restorff Effect to make the most important element distinctly different from its surroundings.
 - **law-of-proximity** — Apply the Law of Proximity to group related elements through spatial relationships.

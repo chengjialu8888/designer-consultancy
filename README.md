@@ -60,7 +60,7 @@ Each collection also lives in its own repo, with its own stars and full detail. 
 
 ## Design practice (this repo)
 
-Agentic skills, commands, and plugins for design, from research to systems, UI, interaction, and delivery. **100 skills and 30 commands across 9 plugins.**
+Agentic skills, commands, and plugins for design, from research to systems, UI, interaction, and delivery. **101 skills and 30 commands across 9 plugins.**
 
 ### Plugins
 
@@ -69,12 +69,23 @@ Agentic skills, commands, and plugins for design, from research to systems, UI, 
 | design-research | 12 | 4 | User research: personas, empathy maps, journey maps, interviews, usability testing, card sorting, surveys, and research repositories. |
 | design-systems | 11 | 3 | Build and maintain design systems: tokens, components, accessibility, theming, motion, governance, and localization. |
 | ux-strategy | 12 | 3 | Shape product direction: competitive analysis, design principles, experience mapping, information architecture, content strategy, and service blueprints. |
-| ui-design | 17 | 4 | Craft polished interfaces: layout grids, color systems, typography, responsive design, data viz, visual style, evidence-led editorial frames, and Gestalt/perceptual principles. |
+| ui-design | 18 | 4 | Craft polished interfaces: layout grids, color systems, typography, responsive design, data viz, visual style, evidence-led editorial frames, zine posters, and Gestalt/perceptual principles. |
 | interaction-design | 16 | 3 | Design meaningful interactions: micro-animations, state machines, gestures, feedback, cognitive laws, forms, onboarding, navigation, and search. |
 | prototyping-testing | 8 | 4 | Validate designs: prototyping strategies, usability testing, heuristic evaluation, and A/B experiments. |
 | design-ops | 9 | 3 | Streamline operations: critique frameworks, handoff specs, sprint planning, team workflows, design debt, and impact reporting. |
 | designer-toolkit | 7 | 3 | Essential utilities: design rationale, presentations, case studies, UX writing, system adoption, and design negotiation. |
 | visual-critique | 8 | 3 | Visual critique: hierarchy, brand consistency, composition, typography, colour, affordance, information density, and anti-AI-slop quality. |
+
+## Style Template Gallery
+
+These visual templates are reusable art directions, not fixed page templates. Pick the one whose material, rhythm, and attention geometry fit the brief, then let the content determine the composition.
+
+| Template | Best for | Preview |
+| --- | --- | --- |
+| [Contemporary Exhibition Editorial](ui-design/skills/contemporary-exhibition-editorial/SKILL.md) | Evidence-led AI reports, system theses, work trajectories, and 16:9 Feishu visuals | <img src="ui-design/examples/contemporary-exhibition-editorial/assets/work-trace.png" alt="Contemporary Exhibition Editorial preview" width="420"> |
+| [Minimal Zine Poster](ui-design/skills/minimal-zine-poster/SKILL.md) | Quiet article covers, one-idea posters, poetic editorial notes, and image-generation prompts | <img src="ui-design/examples/minimal-zine-poster/assets/night-door.jpeg" alt="Minimal Zine Poster Night Door preview" width="170"> <img src="ui-design/examples/minimal-zine-poster/assets/yellow-step.jpeg" alt="Minimal Zine Poster Yellow Step preview" width="170"> |
+
+The screenshot examples live beside each template under [`ui-design/examples`](ui-design/examples). The ZINE thumbnails are selected upstream examples and carry their attribution in [`NOTICE.md`](ui-design/examples/minimal-zine-poster/NOTICE.md).
 
 ### All commands
 

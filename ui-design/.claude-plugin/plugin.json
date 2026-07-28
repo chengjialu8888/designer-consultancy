@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, visual hierarchy, and evidence-led editorial art direction.",
   "author": { "name": "MC Dean", "url": "https://marieclairedean.substack.com/" },
-  "keywords": ["ui-design", "layout", "color", "typography", "responsive", "visual-hierarchy", "editorial", "data-visualization"],
+  "keywords": ["ui-design", "layout", "color", "typography", "responsive", "visual-hierarchy", "editorial", "data-visualization", "zine", "poster"],
   "homepage": "https://github.com/Owl-Listener/designer-skills",
   "license": "MIT"
 }

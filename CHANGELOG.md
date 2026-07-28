@@ -12,6 +12,12 @@ All notable changes to this collection are documented here.
 - Documented 16:9 exhibition-frame composition, paper/black color fields, semantic accent tokens, work-trace diagrams, evidence rails, Feishu output guidance, and responsive quality gates.
 - Added a worked example based on the AI News Digest visual “The next training data is a work trace.”
 
+### ui-design — minimal zine poster
+
+- Added `minimal-zine-poster`, a quiet vertical 3:5 poster system with large paper fields, one imageable subject, restrained type, and a single high-chroma print anchor.
+- Added screenshot examples and upstream MIT attribution under `ui-design/examples/minimal-zine-poster/`.
+- Added a root README style gallery showing the reusable visual templates side by side.
+
 ### visual-critique — anti-AI-slop quality gate
 
 - Added `anti-ai-slop`, a read-only audit skill adapted from Hallmark's anti-AI-slop practice.
