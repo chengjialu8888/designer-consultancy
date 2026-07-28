@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Georgia O'Keeffe method preview</title>
+  <desc id="desc">A close crop of an abstracted dried leaf edge, using a limited clay, cream, and blue palette.</desc>
+  <rect width="1200" height="675" fill="#e9e1d1"/>
+  <rect x="34" y="34" width="1132" height="607" fill="none" stroke="#292923" stroke-width="2"/>
+  <path d="M-55 572 C104 494 151 349 238 235 C325 121 423 64 548 25 L700 25 C553 107 466 201 409 314 C347 437 302 549 205 675 L-55 675 Z" fill="#b65d3b"/>
+  <path d="M-10 588 C121 506 172 379 253 270 C331 166 414 104 510 61" fill="none" stroke="#e1a26d" stroke-width="48" opacity="0.82"/>
+  <path d="M26 609 C145 530 194 410 276 300 C345 207 414 151 492 111" fill="none" stroke="#4f6870" stroke-width="11" opacity="0.92"/>
+  <path d="M20 636 C163 548 223 427 302 329 C370 244 432 202 500 169" fill="none" stroke="#1f363d" stroke-width="3" opacity="0.8"/>
+  <path d="M471 25 C628 55 774 150 864 272 C950 388 1032 507 1220 571 L1220 675 L608 675 C584 554 548 438 494 339 C438 235 401 156 471 25 Z" fill="#d6c9b4"/>
+  <path d="M585 63 C712 111 810 195 873 294 C934 390 990 484 1112 543" fill="none" stroke="#f2ece0" stroke-width="26" opacity="0.72"/>
+  <circle cx="933" cy="395" r="84" fill="#2f5559" opacity="0.92"/>
+  <circle cx="933" cy="395" r="46" fill="#e9e1d1" opacity="0.7"/>
+  <text x="74" y="92" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3">ARTIST-DERIVED METHOD / 01</text>
+  <text x="74" y="125" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="29" letter-spacing="1">CLOSE LOOKING</text>
+  <text x="74" y="159" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">SELECTION / SCALE / NECESSARY COLOR</text>
+  <text x="1010" y="92" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">01 — 03</text>
+  <line x1="74" y1="586" x2="293" y2="586" stroke="#292923" stroke-width="2"/>
+  <text x="74" y="616" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">ONE MATERIAL FACT / FRAME THE EDGE</text>
+  <text x="976" y="616" fill="#292923" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">OPEN FIELD</text>
+</svg>

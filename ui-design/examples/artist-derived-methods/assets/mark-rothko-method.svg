@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Mark Rothko method preview</title>
+  <desc id="desc">A restrained composition of layered color fields with soft boundaries and surrounding quiet.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241b2c"/>
+      <stop offset="0.55" stop-color="#30213a"/>
+      <stop offset="1" stop-color="#181721"/>
+    </linearGradient>
+    <linearGradient id="warmField" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#803d3e" stop-opacity="0.82"/>
+      <stop offset="0.44" stop-color="#a65347" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#75363d" stop-opacity="0.79"/>
+    </linearGradient>
+    <linearGradient id="coolField" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#182c51" stop-opacity="0.82"/>
+      <stop offset="0.54" stop-color="#263d70" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#152644" stop-opacity="0.84"/>
+    </linearGradient>
+    <filter id="soft" x="-8%" y="-12%" width="116%" height="124%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="#111219"/>
+  <rect x="34" y="34" width="1132" height="607" fill="url(#ground)" stroke="#c9b8a7" stroke-opacity="0.42" stroke-width="2"/>
+  <rect x="171" y="109" width="858" height="192" fill="#5d2d3a" opacity="0.34" filter="url(#soft)"/>
+  <rect x="176" y="114" width="848" height="182" fill="url(#warmField)" opacity="0.94" filter="url(#soft)"/>
+  <rect x="188" y="124" width="824" height="161" fill="#b25d4a" opacity="0.31"/>
+  <rect x="171" y="362" width="858" height="195" fill="#142448" opacity="0.3" filter="url(#soft)"/>
+  <rect x="176" y="367" width="848" height="184" fill="url(#coolField)" opacity="0.95" filter="url(#soft)"/>
+  <rect x="191" y="378" width="817" height="158" fill="#385486" opacity="0.22"/>
+  <rect x="207" y="305" width="786" height="24" fill="#8b5660" opacity="0.34" filter="url(#soft)"/>
+  <rect x="74" y="75" width="2" height="80" fill="#d9c8b8" opacity="0.7"/>
+  <text x="96" y="94" fill="#e5d8c9" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3">ARTIST-DERIVED METHOD / 02</text>
+  <text x="96" y="128" fill="#e5d8c9" font-family="Arial, Helvetica, sans-serif" font-size="29" letter-spacing="1">COLOR FIELD</text>
+  <text x="96" y="160" fill="#cdbdaf" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">PROPORTION / SOFT EDGE / VIEWING DISTANCE</text>
+  <text x="1044" y="94" fill="#d9c8b8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">02 — 03</text>
+  <text x="96" y="600" fill="#cdbdaf" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">GROUND + PRIMARY FIELD + COUNTER-FIELD</text>
+  <text x="926" y="600" fill="#cdbdaf" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">QUIET INTERVAL</text>
+</svg>

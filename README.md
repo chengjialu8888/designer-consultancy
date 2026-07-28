@@ -84,10 +84,10 @@ These are reusable design methods, not locked themes. Use the skill instructions
 
 The artist methods are abstracted into composition, color, material, and rhythm rules rather than imitation.
 
-| Method | Useful for |
-| --- | --- |
-| [Georgia O'Keeffe Style](ui-design/skills/georgia-okeeffe-style/SKILL.md) | Organic scale, concentrated color, and close looking |
-| [Mark Rothko Style](ui-design/skills/mark-rothko-style/SKILL.md) | Color fields, atmospheric hierarchy, and emotional pacing |
+| Method | Useful for | Effect preview |
+| --- | --- | --- |
+| [Georgia O'Keeffe Style](ui-design/skills/georgia-okeeffe-style/SKILL.md) | Organic scale, concentrated color, and close looking | <img src="ui-design/examples/artist-derived-methods/assets/georgia-okeeffe-method.svg" width="300" alt="Georgia O'Keeffe method preview: close looking, selection, and necessary color"> |
+| [Mark Rothko Style](ui-design/skills/mark-rothko-style/SKILL.md) | Color fields, atmospheric hierarchy, and emotional pacing | <img src="ui-design/examples/artist-derived-methods/assets/mark-rothko-method.svg" width="300" alt="Mark Rothko method preview: layered color fields, soft edges, and quiet intervals"> |
 
 ## Repository map
 
