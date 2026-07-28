@@ -12,6 +12,12 @@ All notable changes to this collection are documented here.
 - Documented 16:9 exhibition-frame composition, paper/black color fields, semantic accent tokens, work-trace diagrams, evidence rails, Feishu output guidance, and responsive quality gates.
 - Added a worked example based on the AI News Digest visual “The next training data is a work trace.”
 
+### visual-critique — anti-AI-slop quality gate
+
+- Added `anti-ai-slop`, a read-only audit skill adapted from Hallmark's anti-AI-slop practice.
+- Added `/anti-slop-audit` with pre-flight findings, six-axis self-critique, 31 gates, ranked severity, and a verification handoff.
+- Added checks for fabricated evidence, structural sameness, token drift, fake UI chrome, typography defaults, responsive failures, and missing interaction states.
+
 ## [1.0.0] — 2026-06-11
 
 First stable release. Tagging the current state of main as v1.0.0 to give integrators a stable version to pin to.
