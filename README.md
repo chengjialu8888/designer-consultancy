@@ -74,6 +74,7 @@ The generated extensions live in `.gemini/extensions/`. Copy that directory into
 | Create a restrained editorial poster | `minimal-zine-poster` |
 | Review generated work for generic patterns | `anti-ai-slop` |
 | Format a WeChat Official Account article | `blog` |
+| Browse WeChat theme case screenshots | [blog theme gallery](blog/README.md#theme-gallery) |
 
 ## Visual directions
 
