@@ -63,6 +63,12 @@
       "category": "design"
     },
     {
+      "name": "blog",
+      "description": "WeChat Official Account editorial workflow: visual themes, mobile-first layout, image slots, WeChat-ready HTML, screenshot QA, and opt-in draft preparation.",
+      "source": "./blog",
+      "category": "content"
+    },
+    {
       "name": "program-planning",
       "description": "Plan and scope UX programs: roadmaps, dependency maps, capacity planning, prioritisation.",
       "source": {

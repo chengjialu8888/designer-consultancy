@@ -16,6 +16,7 @@ plugins=(
   design-ops
   designer-toolkit
   visual-critique
+  blog
 )
 
 echo "Building Gemini extension context files..."
@@ -46,7 +47,7 @@ for plugin in "${plugins[@]}"; do
 
   # Append each SKILL.md in alphabetical order
   count=0
-  for skill_dir in $(find "$plugin_dir/skills" -mindepth 1 -maxdepth 1 -type d | sort); do
+  while IFS= read -r -d '' skill_dir; do
     skill_file="$skill_dir/SKILL.md"
     [ -f "$skill_file" ] || continue
 
@@ -58,7 +59,7 @@ for plugin in "${plugins[@]}"; do
     } >> "$output"
 
     count=$((count + 1))
-  done
+  done < <(find "$plugin_dir/skills" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
 
   # Append command summaries so Gemini knows the available workflows
   commands_dir="$plugin_dir/commands"
@@ -72,12 +73,12 @@ for plugin in "${plugins[@]}"; do
       echo ""
     } >> "$output"
 
-    for cmd_file in $(find "$commands_dir" -name '*.md' | sort); do
+    while IFS= read -r -d '' cmd_file; do
       cmd_name=$(basename "$cmd_file" .md)
       # Extract description from frontmatter
       cmd_desc=$(awk '/^description:/{sub(/^description:[[:space:]]*/,""); print; exit}' "$cmd_file" 2>/dev/null || true)
       echo "- **/$plugin:$cmd_name** — $cmd_desc" >> "$output"
-    done
+    done < <(find "$commands_dir" -name '*.md' -print0 | sort -z)
     echo "" >> "$output"
   fi
 

@@ -1,0 +1,9 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "WeChat Official Account editorial workflow: visual themes, mobile-first layout, image slots, HTML QA, and opt-in draft preparation.",
+  "author": { "name": "designer-consultancy contributors" },
+  "keywords": ["wechat", "wechat-editorial", "blog", "html", "mobile-reading", "content-design"],
+  "homepage": "https://github.com/chengjialu8888/designer-consultancy",
+  "license": "MIT"
+}

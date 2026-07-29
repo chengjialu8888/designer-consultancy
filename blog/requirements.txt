@@ -1,0 +1,3 @@
+Markdown>=3.5
+beautifulsoup4>=4.12
+cssutils>=2.9

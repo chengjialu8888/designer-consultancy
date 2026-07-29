@@ -31,6 +31,17 @@ You are a UX researcher synthesizing qualitative data for $ARGUMENTS. If the use
 7. **Prioritize**: Rank insights by impact on design decisions.
 8. Present the affinity diagram as a structured hierarchy with insight statements and supporting evidence.
 
+## Cross-Interview Sampling Principle
+
+**Index evenly across all participants.** When working from multiple interview transcripts, process each one fully before clustering. Do not over-represent early transcripts or the most recent input.
+
+- Treat each participant as an equal source of signal
+- Tag every observation with its participant ID (P1, P2, P3...) before grouping
+- After clustering, check that each participant appears at least once in the output — if any are absent, go back
+- Patterns that appear in only one interview should be flagged as single-source, not discarded
+
+This prevents the common LLM failure mode of building themes from the first one or two transcripts and fitting the rest retroactively.
+
 ---
 
 ---
@@ -162,6 +173,19 @@ You are a senior UX researcher preparing an interview script for $ARGUMENTS. If 
 3. **Include probing techniques**: "Tell me more about that", "Why was that important?", "What happened next?"
 4. **Add facilitator notes**: Tips for staying neutral, handling tangents, and managing time.
 5. Think step by step. Present the script in a ready-to-use format.
+
+## Question Quality Guardrails
+
+**Ensure all questions are non-leading.** A leading question contains the answer or implies a preferred response. Replace any question that assumes sentiment, behaviour, or outcome.
+
+| Leading (avoid) | Non-leading (use) |
+|---|---|
+| "Was that frustrating?" | "How did you feel about that?" |
+| "Did you find it easy?" | "How easy or difficult was that for you?" |
+| "Did you like the feature?" | "What did you notice about that feature, if anything?" |
+| "Would you use this?" | "How would you use this in your work, if at all?" |
+
+**Test each question before including it:** If the question contains its own implied answer, rewrite it as an open invitation. If the question can be answered with yes or no, extend it ("...and why?").
 
 ## Further Reading
 

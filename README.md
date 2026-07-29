@@ -12,7 +12,7 @@ A compact design practice for agentic product work: research, systems, UI, inter
 
 ## Design practice
 
-**101 skills, 30 commands, 9 design plugins.**
+**106 skills, 30 commands, 10 design plugins.**
 
 | Plugin | Skills | Commands | Focus |
 | --- | ---: | ---: | --- |
@@ -25,6 +25,7 @@ A compact design practice for agentic product work: research, systems, UI, inter
 | `design-ops` | 9 | 3 | Handoff, documentation, and governance |
 | `designer-toolkit` | 7 | 3 | Practical design utilities |
 | `visual-critique` | 8 | 3 | Quality, hierarchy, and anti-slop review |
+| `blog` | 5 | 0 | WeChat editorial layout, imagery, HTML, and draft preparation |
 
 ## Install
 
@@ -37,6 +38,7 @@ git clone https://github.com/chengjialu8888/designer-consultancy.git /tmp/design
 mkdir -p .codex/skills
 cp -R /tmp/designer-consultancy/ui-design/skills/. .codex/skills/
 cp -R /tmp/designer-consultancy/visual-critique/skills/. .codex/skills/
+cp -R /tmp/designer-consultancy/blog/skills/. .codex/skills/
 ```
 
 For a personal install, replace `.codex/skills` with `~/.codex/skills`. To install one collection, copy only that plugin's `skills/` directory. Start a new Codex session after installation so the skill index refreshes.
@@ -48,6 +50,7 @@ The `commands/` directories remain portable workflow references. In Codex, invok
 ```text
 /plugin marketplace add chengjialu8888/designer-consultancy
 /plugin install ui-design@designer-skills
+/plugin install blog@designer-skills
 ```
 
 ### Gemini CLI
@@ -70,6 +73,7 @@ The generated extensions live in `.gemini/extensions/`. Copy that directory into
 | Create an exhibition-style AI report | `contemporary-exhibition-editorial` |
 | Create a restrained editorial poster | `minimal-zine-poster` |
 | Review generated work for generic patterns | `anti-ai-slop` |
+| Format a WeChat Official Account article | `blog` |
 
 ## Visual directions
 
@@ -94,6 +98,7 @@ The artist methods are abstracted into composition, color, material, and rhythm 
 - `*/skills/`: agent-readable design methods, each with a `SKILL.md`
 - `*/commands/`: repeatable workflow references for Claude Code and portable agent use
 - `ui-design/examples/`: rendered examples and visual references
+- `blog/`: WeChat Official Account editorial workflow and themes
 - `scripts/build-gemini.sh`: converts plugin skills into Gemini CLI extensions
 - `.claude-plugin/marketplace.json`: Claude Code marketplace metadata
 
