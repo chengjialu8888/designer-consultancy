@@ -1,6 +1,6 @@
 # Artist-derived frontend method specimens
 
-This zero-dependency HTML/CSS/JavaScript renderer turns each artist-derived method into a concrete frontend workflow. The screenshots in the repository root README are captured from these pages at `1200 x 800`.
+This zero-dependency HTML/CSS/JavaScript renderer turns each artist-derived method into a concrete frontend workflow. Artist-directed generated images provide the interface content; HTML and CSS provide the information architecture, controls, states, and responsive behavior. The screenshots in the repository root README are captured from these pages at `1200 x 800`.
 
 Serve the repository root over HTTP, then open:
 
@@ -17,4 +17,4 @@ ui-design/examples/artist-derived-methods/frontend/?style=titian
 ui-design/examples/artist-derived-methods/frontend/?style=edvard-munch
 ```
 
-These are method translations, not visual clones. Each specimen expresses the source skill through information architecture, component behavior, hierarchy, state, and viewing rhythm.
+These are method translations, not visual clones. Each specimen expresses the source skill through information architecture, component behavior, hierarchy, state, and viewing rhythm. The image directions and exclusions are documented in the [generated content asset notes](../assets/content/README.md).
