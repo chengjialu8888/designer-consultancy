@@ -1,6 +1,6 @@
 # ui-design
 Craft polished user interfaces with layout grids, color systems, typography scales, responsive patterns, visual hierarchy, and evidence-led editorial art direction.
-## Skills (18)
+## Skills (28)
 - **layout-grid** — Define responsive layout grid systems with columns, gutters, margins, and breakpoints.
 - **color-system** — Build a comprehensive color system with palette generation and accessibility compliance.
 - **typography-scale** — Create a modular typography scale with size, weight, and line-height relationships.
@@ -12,6 +12,16 @@ Craft polished user interfaces with layout grids, color systems, typography scal
 - **illustration-style** — Define an illustration style guide with visual language and usage rules.
 - **georgia-okeeffe-style** — Translate Georgia O'Keeffe's visual principles into close-looking, magnified composition, necessary color, and restrained art direction.
 - **mark-rothko-style** — Translate Mark Rothko's visual principles into color relationships, soft boundaries, intimate scale, and contemplative art direction.
+- **leonora-carrington-style** — Translate Leonora Carrington's visual principles into personal mythology, metamorphosis, animal agency, threshold spaces, and precise surreal art direction.
+- **doraemon-style** — Translate Fujiko F. Fujio's visual storytelling mechanisms into original, child-readable character systems and consequence-driven everyday science fiction without copying protected IP.
+- **jackson-pollock-style** — Translate Jackson Pollock's visual methods into gravity-aware trajectories, action-observation cycles, heterogeneous fields, and multi-distance art direction.
+- **lucian-freud-style** — Translate Lucian Freud's visual principles into sustained observation, embodied material surfaces, weighted figures, reciprocal gaze, and compressed spatial relationships.
+- **lucio-fontana-style** — Translate Lucio Fontana's Spatialist principles into constructed thresholds, material rupture, active light, and embodied viewing.
+- **gustav-klimt-style** — Translate Gustav Klimt's visual methods into body-and-pattern tension, materialized light, production-ready pattern grammar, and context-aware composition.
+- **pieter-bruegel-the-elder-style** — Translate Pieter Bruegel the Elder's visual methods into high-viewpoint worlds, seasonal causality, parallel micro-narratives, and double-distance reading.
+- **hans-holbein-the-younger-style** — Translate Hans Holbein the Younger's visual methods into selective precision, evidence-based identity, material specificity, and bounded ambiguity.
+- **titian-style** — Translate Titian's visual methods into chromatic construction, material-specific touch, long revision, narrative thresholds, and distributed authorship.
+- **edvard-munch-style** — Translate Edvard Munch's visual methods into relational sequences, directional lines, recurring motif variants, and material-driven recomposition.
 - **data-visualization** — Design clear, accessible data visualizations with appropriate chart selection.
 - **contemporary-exhibition-editorial** — Build evidence-led AI and technology visuals as exhibition-like 16:9 editorial frames with hard color fields, typographic tension, and traceable data narratives.
 - **minimal-zine-poster** — Create quiet vertical editorial posters with large paper fields, one imageable subject, restrained typography, and a single high-chroma print anchor.
