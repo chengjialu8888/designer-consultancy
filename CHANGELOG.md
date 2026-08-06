@@ -6,6 +6,13 @@ All notable changes to this collection are documented here.
 
 ## Unreleased
 
+### Repository — Garden Skills partner collection
+
+- Added five pinned Garden Skills options to the Claude Code marketplace: web video presentation, web design engineering, local knowledge retrieval, GPT Image 2, and beautiful single-file HTML articles.
+- Added Codex, Gemini CLI, Cursor, and generic Agent Skills installation guidance through Garden's official `npx skills` workflow.
+- Kept the upstream source external and credited ConardLi's MIT-licensed project; marketplace entries are pinned to reviewed commit `aaf9a82`.
+- Normalized marketplace metadata to the cross-version structure accepted by the Claude Code validator.
+
 ### visual-critique — Impeccable slop audit
 
 - Added `impeccable-slop-audit` as a frontend-specific option backed by Impeccable's official CLI, rendered desktop/mobile checks, evidence-channel labels, false-positive review, and a repair verification loop.

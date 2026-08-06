@@ -12,7 +12,7 @@ A compact design practice for agentic product work: research, systems, UI, inter
 
 ## Design practice
 
-**117 skills, 30 commands, 10 design plugins.**
+**117 local skills, 30 local commands, 10 local design plugins, plus partner collections.**
 
 | Plugin | Skills | Commands | Focus |
 | --- | ---: | ---: | --- |
@@ -63,6 +63,26 @@ cd /tmp/designer-consultancy
 
 The generated extensions live in `.gemini/extensions/`. Copy that directory into the project or user-level Gemini extensions directory as needed.
 
+### Garden Skills
+
+[Garden Skills](https://github.com/ConardLi/garden-skills) is available as five pinned partner options in the Designer Consultancy marketplace:
+
+```text
+/plugin install garden-presentation-skills@designer-skills
+/plugin install garden-web-design-skills@designer-skills
+/plugin install garden-knowledge-base-skills@designer-skills
+/plugin install garden-image-generation-skills@designer-skills
+/plugin install garden-beautiful-article-skills@designer-skills
+```
+
+For Codex, Gemini CLI, Cursor, or another Agent Skills runtime, use Garden's official installer:
+
+```bash
+npx skills add ConardLi/garden-skills
+```
+
+See the [Garden Skills integration](integrations/garden-skills.md) for capability mapping, provenance, and the pinned revision.
+
 ## Start here
 
 | Need | Start with |
@@ -74,6 +94,7 @@ The generated extensions live in `.gemini/extensions/`. Copy that directory into
 | Create a restrained editorial poster | `minimal-zine-poster` |
 | Review generated work for generic patterns | `anti-ai-slop` |
 | Run Impeccable's deterministic frontend slop check | [`impeccable-slop-audit`](visual-critique/skills/impeccable-slop-audit/SKILL.md) |
+| Use Garden's presentation, frontend, image, retrieval, or article workflows | [Garden Skills](integrations/garden-skills.md) |
 | Format a WeChat Official Account article | `blog` |
 | Browse WeChat theme case screenshots | [blog theme gallery](blog/README.md#theme-gallery) |
 | Explore artist-derived design styles | [Artist-derived methods](#artist-derived-methods-design-styles) |
@@ -116,6 +137,7 @@ Each diagram shows how a method changes frontend information architecture, hiera
 - `*/commands/`: repeatable workflow references for Claude Code and portable agent use
 - `ui-design/examples/`: rendered examples and visual references
 - `blog/`: WeChat Official Account editorial workflow and themes
+- `integrations/`: pinned partner collections and install mappings
 - `scripts/build-gemini.sh`: converts plugin skills into Gemini CLI extensions
 - `.claude-plugin/marketplace.json`: Claude Code marketplace metadata
 

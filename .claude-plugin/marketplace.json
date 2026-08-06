@@ -1,11 +1,12 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "designer-skills",
-  "version": "2.0.0",
-  "description": "The Designer Skills suite: agentic skills, commands, and plugins for design in the agent era \u2014 design practice, AI product design, UX program management, design leadership, and inclusive design. One install surfaces every collection; each lives in its own repo.",
   "owner": {
     "name": "MC Dean",
     "url": "https://marieclairedean.substack.com/"
+  },
+  "metadata": {
+    "version": "2.1.0",
+    "description": "The Designer Skills suite: agentic skills, commands, and plugins for design in the agent era \u2014 design practice, AI product design, UX program management, design leadership, inclusive design, and pinned partner collections."
   },
   "plugins": [
     {
@@ -67,6 +68,96 @@
       "description": "WeChat Official Account editorial workflow: visual themes, mobile-first layout, image slots, WeChat-ready HTML, screenshot QA, and opt-in draft preparation.",
       "source": "./blog",
       "category": "content"
+    },
+    {
+      "name": "garden-presentation-skills",
+      "description": "Garden Skills: click-driven 16:9 web video presentations and screen-recorded explainers.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git",
+        "path": "skills/web-video-presentation",
+        "sha": "aaf9a82f5efd73e87cc0998edc398e75bfc35901"
+      },
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "ConardLi" },
+      "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation",
+      "repository": "https://github.com/ConardLi/garden-skills",
+      "license": "MIT",
+      "category": "design",
+      "tags": ["garden-skills", "presentation", "web-video"]
+    },
+    {
+      "name": "garden-web-design-skills",
+      "description": "Garden Skills: polished browser-rendered pages, dashboards, prototypes, slides, and data visualizations.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git",
+        "path": "skills/web-design-engineer",
+        "sha": "aaf9a82f5efd73e87cc0998edc398e75bfc35901"
+      },
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "ConardLi" },
+      "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-design-engineer",
+      "repository": "https://github.com/ConardLi/garden-skills",
+      "license": "MIT",
+      "category": "design",
+      "tags": ["garden-skills", "frontend", "web-design"]
+    },
+    {
+      "name": "garden-knowledge-base-skills",
+      "description": "Garden Skills: progressive local knowledge-base retrieval across Markdown, text, PDF, and Excel sources.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git",
+        "path": "skills/kb-retriever",
+        "sha": "aaf9a82f5efd73e87cc0998edc398e75bfc35901"
+      },
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "ConardLi" },
+      "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/kb-retriever",
+      "repository": "https://github.com/ConardLi/garden-skills",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["garden-skills", "retrieval", "knowledge-base"]
+    },
+    {
+      "name": "garden-image-generation-skills",
+      "description": "Garden Skills: GPT Image 2 generation and editing with local, host-native, and prompt-advisor modes.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git",
+        "path": "skills/gpt-image-2",
+        "sha": "aaf9a82f5efd73e87cc0998edc398e75bfc35901"
+      },
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "ConardLi" },
+      "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/gpt-image-2",
+      "repository": "https://github.com/ConardLi/garden-skills",
+      "license": "MIT",
+      "category": "design",
+      "tags": ["garden-skills", "image-generation", "gpt-image-2"]
+    },
+    {
+      "name": "garden-beautiful-article-skills",
+      "description": "Garden Skills: source material to polished, offline-friendly, single-file HTML articles.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git",
+        "path": "skills/beautiful-article",
+        "sha": "aaf9a82f5efd73e87cc0998edc398e75bfc35901"
+      },
+      "strict": false,
+      "skills": ["./"],
+      "author": { "name": "ConardLi" },
+      "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/beautiful-article",
+      "repository": "https://github.com/ConardLi/garden-skills",
+      "license": "MIT",
+      "category": "content",
+      "tags": ["garden-skills", "editorial", "html-article"]
     },
     {
       "name": "program-planning",
