@@ -6,6 +6,13 @@ All notable changes to this collection are documented here.
 
 ## Unreleased
 
+### ui-design — Scene Distillation Zine v1.3
+
+- Added `scene-distillation-zine-v1-3` as a local visual-direction template for transforming supplied photos into original, source-derived paper-poster illustrations.
+- Preserved the upstream semantic distillation, expressive proposition, central tension, visual metaphor, negative-space, color-mode, edge, and authorial typography workflow.
+- Added upstream MIT provenance at reviewed commit `e764b7f`, plus the original license and OpenAI skill metadata.
+- Added an original `BETWEEN STOPS` preview generated with the built-in image tool and listed the template under Visual directions.
+
 ### Repository — Taste Skill partner collection
 
 - Added a pinned `taste-skill` Claude Code marketplace option exposing all 13 upstream frontend, redesign, image-to-code, visual-direction, and image-generation skills.

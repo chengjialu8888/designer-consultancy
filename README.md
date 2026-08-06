@@ -12,14 +12,14 @@ A compact design practice for agentic product work: research, systems, UI, inter
 
 ## Design practice
 
-**117 local skills, 30 local commands, 10 local design plugins, plus partner collections.**
+**118 local skills, 30 local commands, 10 local design plugins, plus partner collections.**
 
 | Plugin | Skills | Commands | Focus |
 | --- | ---: | ---: | --- |
 | `design-research` | 12 | 4 | Research, synthesis, and evidence |
 | `design-systems` | 11 | 3 | Tokens, components, and system rules |
 | `ux-strategy` | 12 | 3 | Journeys, flows, and product direction |
-| `ui-design` | 28 | 4 | Interfaces, visual language, and templates |
+| `ui-design` | 29 | 4 | Interfaces, visual language, and templates |
 | `interaction-design` | 16 | 3 | States, motion, and behavior |
 | `prototyping-testing` | 8 | 4 | Prototypes and usability loops |
 | `design-ops` | 9 | 3 | Handoff, documentation, and governance |
@@ -108,6 +108,7 @@ See the [Taste Skill integration](integrations/taste-skill.md) for routing guida
 | Build a research-backed direction | `design-research` |
 | Create an exhibition-style AI report | `contemporary-exhibition-editorial` |
 | Create a restrained editorial poster | `minimal-zine-poster` |
+| Distill a supplied photo into an expressive zine poster | `scene-distillation-zine-v1-3` |
 | Review generated work for generic patterns | `anti-ai-slop` |
 | Run Impeccable's deterministic frontend slop check | [`impeccable-slop-audit`](visual-critique/skills/impeccable-slop-audit/SKILL.md) |
 | Use Garden's presentation, frontend, image, retrieval, or article workflows | [Garden Skills](integrations/garden-skills.md) |
@@ -124,6 +125,7 @@ These are reusable design methods, not locked themes. Use the skill instructions
 | --- | --- | --- |
 | [Contemporary Exhibition Editorial](ui-design/skills/contemporary-exhibition-editorial/SKILL.md) | Evidence-led reports and 16:9 editorial pages | <img src="ui-design/examples/contemporary-exhibition-editorial/assets/work-trace.png" width="260" alt="Contemporary exhibition editorial preview"> |
 | [Minimal Zine Poster](ui-design/skills/minimal-zine-poster/SKILL.md) | Quiet posters, covers, and single-idea summaries | <img src="ui-design/examples/minimal-zine-poster/assets/night-door.jpeg" width="125" alt="Minimal zine night door preview"> <img src="ui-design/examples/minimal-zine-poster/assets/yellow-step.jpeg" width="125" alt="Minimal zine yellow step preview"> |
+| [Scene Distillation Zine v1.3](ui-design/skills/scene-distillation-zine-v1-3/SKILL.md) | Source-photo distillation into expressive paper posters with semantic anchors, spacious negative space, tactile print material, and purposeful high-chroma color | <img src="ui-design/examples/scene-distillation-zine/assets/between-stops.jpg" width="150" alt="Scene Distillation Zine preview: an empty rain-soaked bus stop distilled into a sparse charcoal paper poster with one cobalt accent"> |
 
 ## Artist-derived methods: design styles
 
