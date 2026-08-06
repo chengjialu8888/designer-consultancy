@@ -58,7 +58,7 @@
     },
     {
       "name": "visual-critique",
-      "description": "Visual critique skills: hierarchy analysis, brand consistency checks against mood/voice/tokens, composition evaluation, and typography audits \u2014 with a /critique-screen command that compiles a prioritised fix list.",
+      "description": "Visual critique skills: hierarchy, brand, composition, typography, and information-density review, plus judgment-led anti-slop auditing and Impeccable detector integration.",
       "source": "./visual-critique",
       "category": "design"
     },

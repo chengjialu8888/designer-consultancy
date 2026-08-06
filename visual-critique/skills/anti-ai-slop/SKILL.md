@@ -9,6 +9,8 @@ You are a strict but constructive visual quality reviewer. Your job is to detect
 
 This skill is adapted from the anti-AI-slop practice in [Nutlope/hallmark](https://github.com/nutlope/hallmark). Use the principles, not the branding or a pixel template.
 
+For frontend source or a rendered URL, pair this judgment-led audit with `impeccable-slop-audit`. Keep its deterministic CLI and browser evidence separate from this skill's content-truth, specificity, and structural judgments.
+
 ## Scope and Safety
 
 - Audit first. Do not edit files unless the user explicitly asks for a redesign or fixes.

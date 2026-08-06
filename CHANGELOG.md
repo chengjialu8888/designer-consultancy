@@ -6,6 +6,13 @@ All notable changes to this collection are documented here.
 
 ## Unreleased
 
+### visual-critique — Impeccable slop audit
+
+- Added `impeccable-slop-audit` as a frontend-specific option backed by Impeccable's official CLI, rendered desktop/mobile checks, evidence-channel labels, false-positive review, and a repair verification loop.
+- Expanded `/anti-slop-audit` to combine deterministic Impeccable findings with the existing content-truth, specificity, and structural judgment gates.
+- Added a compact local field guide for the live 64-pattern catalog without vendoring the upstream detector.
+- Credited Paul Bakaus and the Apache-2.0 Impeccable project; the official CLI and live catalog remain the source of truth.
+
 ### ui-design — contemporary exhibition editorial
 
 - Added `contemporary-exhibition-editorial`, a reusable visual system for evidence-led AI and technology reporting.

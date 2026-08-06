@@ -12,7 +12,7 @@ A compact design practice for agentic product work: research, systems, UI, inter
 
 ## Design practice
 
-**116 skills, 30 commands, 10 design plugins.**
+**117 skills, 30 commands, 10 design plugins.**
 
 | Plugin | Skills | Commands | Focus |
 | --- | ---: | ---: | --- |
@@ -24,7 +24,7 @@ A compact design practice for agentic product work: research, systems, UI, inter
 | `prototyping-testing` | 8 | 4 | Prototypes and usability loops |
 | `design-ops` | 9 | 3 | Handoff, documentation, and governance |
 | `designer-toolkit` | 7 | 3 | Practical design utilities |
-| `visual-critique` | 8 | 3 | Quality, hierarchy, and anti-slop review |
+| `visual-critique` | 9 | 3 | Quality, hierarchy, and anti-slop review |
 | `blog` | 5 | 0 | WeChat editorial layout, imagery, HTML, and draft preparation |
 
 ## Install
@@ -73,6 +73,7 @@ The generated extensions live in `.gemini/extensions/`. Copy that directory into
 | Create an exhibition-style AI report | `contemporary-exhibition-editorial` |
 | Create a restrained editorial poster | `minimal-zine-poster` |
 | Review generated work for generic patterns | `anti-ai-slop` |
+| Run Impeccable's deterministic frontend slop check | [`impeccable-slop-audit`](visual-critique/skills/impeccable-slop-audit/SKILL.md) |
 | Format a WeChat Official Account article | `blog` |
 | Browse WeChat theme case screenshots | [blog theme gallery](blog/README.md#theme-gallery) |
 | Explore artist-derived design styles | [Artist-derived methods](#artist-derived-methods-design-styles) |
