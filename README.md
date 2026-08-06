@@ -83,6 +83,22 @@ npx skills add ConardLi/garden-skills
 
 See the [Garden Skills integration](integrations/garden-skills.md) for capability mapping, provenance, and the pinned revision.
 
+### Taste Skill
+
+[Taste Skill](https://github.com/Leonxlnx/taste-skill) is available as one pinned partner plugin containing 13 frontend, redesign, image-to-code, visual-direction, and image-generation skills:
+
+```text
+/plugin install taste-skill@designer-skills
+```
+
+For Codex, Gemini CLI, Cursor, or another Agent Skills runtime, use the upstream installer:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill
+```
+
+See the [Taste Skill integration](integrations/taste-skill.md) for routing guidance, the complete skill map, and the pinned revision.
+
 ## Start here
 
 | Need | Start with |
@@ -95,6 +111,7 @@ See the [Garden Skills integration](integrations/garden-skills.md) for capabilit
 | Review generated work for generic patterns | `anti-ai-slop` |
 | Run Impeccable's deterministic frontend slop check | [`impeccable-slop-audit`](visual-critique/skills/impeccable-slop-audit/SKILL.md) |
 | Use Garden's presentation, frontend, image, retrieval, or article workflows | [Garden Skills](integrations/garden-skills.md) |
+| Use Taste Skill's frontend, redesign, image-to-code, or visual-direction workflows | [Taste Skill](integrations/taste-skill.md) |
 | Format a WeChat Official Account article | `blog` |
 | Browse WeChat theme case screenshots | [blog theme gallery](blog/README.md#theme-gallery) |
 | Explore artist-derived design styles | [Artist-derived methods](#artist-derived-methods-design-styles) |

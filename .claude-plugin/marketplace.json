@@ -5,7 +5,7 @@
     "url": "https://marieclairedean.substack.com/"
   },
   "metadata": {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "The Designer Skills suite: agentic skills, commands, and plugins for design in the agent era \u2014 design practice, AI product design, UX program management, design leadership, inclusive design, and pinned partner collections."
   },
   "plugins": [
@@ -158,6 +158,38 @@
       "license": "MIT",
       "category": "content",
       "tags": ["garden-skills", "editorial", "html-article"]
+    },
+    {
+      "name": "taste-skill",
+      "description": "Taste Skill: 13 frontend design, redesign, image-to-code, visual-direction, and image-generation skills for reducing generic UI output.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "path": "skills",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "strict": false,
+      "skills": [
+        "./brandkit",
+        "./brutalist-skill",
+        "./gpt-tasteskill",
+        "./image-to-code-skill",
+        "./imagegen-frontend-mobile",
+        "./imagegen-frontend-web",
+        "./minimalist-skill",
+        "./output-skill",
+        "./redesign-skill",
+        "./soft-skill",
+        "./stitch-skill",
+        "./taste-skill",
+        "./taste-skill-v1"
+      ],
+      "author": { "name": "Leonxlnx" },
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT",
+      "category": "design",
+      "tags": ["taste-skill", "frontend", "anti-slop", "image-to-code", "visual-direction"]
     },
     {
       "name": "program-planning",

@@ -6,6 +6,13 @@ All notable changes to this collection are documented here.
 
 ## Unreleased
 
+### Repository — Taste Skill partner collection
+
+- Added a pinned `taste-skill` Claude Code marketplace option exposing all 13 upstream frontend, redesign, image-to-code, visual-direction, and image-generation skills.
+- Added routing guidance for choosing Taste Skill alongside Designer Consultancy's operational UI, visual critique, Impeccable, and artist-derived methods.
+- Added Codex, Gemini CLI, Cursor, and generic Agent Skills installation guidance through the upstream `npx skills` workflow.
+- Kept the source external and credited Leonxlnx's MIT-licensed project; the marketplace entry is pinned to reviewed commit `e988add`.
+
 ### Repository — Garden Skills partner collection
 
 - Added five pinned Garden Skills options to the Claude Code marketplace: web video presentation, web design engineering, local knowledge retrieval, GPT Image 2, and beautiful single-file HTML articles.
